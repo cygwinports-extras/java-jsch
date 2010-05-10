@@ -1,0 +1,10 @@
+JAVA_CLASSPATH="jzlib.jar"
+inherit ant
+
+DESCRIPTION="Java zlib implementation"
+HOMEPAGE="http://www.jcraft.com/jsch/"
+SRC_URI="mirror://sourceforge/jsch/${ORIG_PN}-${PV}.zip"
+
+ANT_BUILD_TARGETS="dist javadoc"
+ANT_INSTALL_JARS="dist/lib/*.jar"
+ANT_INSTALL_JAVADOC="javadoc"
